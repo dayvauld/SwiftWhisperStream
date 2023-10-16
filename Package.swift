@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "SwiftWhisperStream", targets: ["SwiftWhisperStream"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/lake-of-fire/SwiftSDL2.git", branch: "master"),
+        .package(url: "https://github.com/ctreffs/SwiftSDL2.git", branch: "master"),
         .package(url: "https://github.com/TeHikuMedia/libfvad-ios.git", branch: "tumu"),
     ],
     targets: [
